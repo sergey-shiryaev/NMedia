@@ -1,5 +1,11 @@
 <resources>
     <string name="app_name">NMedia</string>
     <string name="app_text">NMedia!</string>
-
+    <string name="avatar_description">Author avatar</string>
+    <string name="author" translatable="false" />
+    <string name="date" translatable="false" />
+    <string name="netology_post" translatable="false" />
+    <string name="likes_amount" translatable="false" />
+    <string name="shares_amount" translatable="false" />
+    <string name="views_amount" translatable="false" />
 </resources>
