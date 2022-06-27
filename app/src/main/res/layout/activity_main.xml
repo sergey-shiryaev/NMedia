@@ -12,9 +12,9 @@
         android:layout_width="@dimen/post_avatar_size"
         android:layout_height="@dimen/post_avatar_size"
         android:contentDescription="@string/avatar_description"
+        android:src="@mipmap/ic_launcher"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        tools:srcCompat="@mipmap/ic_launcher" />
+        app:layout_constraintTop_toTopOf="parent" />
 
     <androidx.appcompat.widget.AppCompatTextView
         android:id="@+id/authorName"
@@ -24,24 +24,23 @@
         android:layout_marginEnd="8dp"
         android:ellipsize="end"
         android:singleLine="true"
+        android:text="@string/author"
         app:layout_constraintBottom_toTopOf="@id/date"
         app:layout_constraintEnd_toStartOf="@id/options"
         app:layout_constraintStart_toEndOf="@id/avatar"
         app:layout_constraintTop_toTopOf="@id/avatar"
-        app:layout_constraintVertical_chainStyle="spread_inside"
-        tools:text="Нетология. Университет интернет-профессий." />
+        app:layout_constraintVertical_chainStyle="packed" />
 
     <androidx.appcompat.widget.AppCompatTextView
         android:id="@+id/date"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
-
         android:singleLine="true"
+        android:text="@string/date"
         app:layout_constraintBottom_toBottomOf="@id/avatar"
         app:layout_constraintEnd_toEndOf="@id/authorName"
         app:layout_constraintStart_toStartOf="@id/authorName"
-        app:layout_constraintTop_toBottomOf="@id/authorName"
-        tools:text="21 мая в 18:36" />
+        app:layout_constraintTop_toBottomOf="@id/authorName" />
 
     <androidx.appcompat.widget.AppCompatImageButton
         android:id="@+id/options"
@@ -64,7 +63,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         app:layout_constraintTop_toBottomOf="@id/headerBarrier"
-        tools:text="Привет, это новая Нетология! Когда-то Нетология начиналась с интенсивов по онлайн-маркетингу. Затем появились курсы по дизайну, разработке, аналитике и управлению. Мы растем сами и помогаем расти студентам: от новичков до уверенных профессионалов." />
+        android:text="@string/netology_post" />
 
     <androidx.appcompat.widget.AppCompatImageButton
         android:id="@+id/liked"
@@ -83,7 +82,7 @@
         app:layout_constraintBottom_toBottomOf="@id/liked"
         app:layout_constraintStart_toEndOf="@id/liked"
         app:layout_constraintTop_toTopOf="@id/liked"
-        tools:text="10" />
+        android:text="@string/likes_amount" />
 
     <androidx.appcompat.widget.AppCompatImageButton
         android:id="@+id/shared"
@@ -103,10 +102,10 @@
         app:layout_constraintBottom_toBottomOf="@id/shared"
         app:layout_constraintStart_toEndOf="@id/shared"
         app:layout_constraintTop_toTopOf="@id/shared"
-        tools:text="5" />
+        android:text="@string/shares_amount" />
 
     <androidx.constraintlayout.widget.Barrier
-        android:id="@+id/headerBarrier1"
+        android:id="@+id/bottomBarrier"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         app:barrierDirection="top"
@@ -129,6 +128,6 @@
         app:layout_constraintBottom_toBottomOf="@id/views"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="@id/views"
-        tools:text="5" />
+        android:text="@string/views_amount" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
