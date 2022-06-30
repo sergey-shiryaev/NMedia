@@ -4,8 +4,12 @@
     <string name="avatar_description">Author avatar</string>
     <string name="author" translatable="false" />
     <string name="date" translatable="false" />
-    <string name="netology_post" translatable="false" />
+    <string name="net_post" translatable="false" />
     <string name="likes_amount" translatable="false" />
     <string name="shares_amount" translatable="false" />
     <string name="views_amount" translatable="false" />
+    <string name="description_views">description_views</string>
+    <string name="description_shares">description_shares</string>
+    <string name="description_likes">description_likes</string>
+    <string name="description_post_menu">description_post_menu</string>
 </resources>
