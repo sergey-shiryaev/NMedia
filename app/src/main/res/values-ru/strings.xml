@@ -5,8 +5,12 @@
     <string name="avatar_description">Аватар автора</string>
     <string name="author">Нетология. Университет интернет-профессий.</string>
     <string name="date">21 мая в 18:36</string>
-    <string name="netology_post">Привет, это новая Нетология! Когда-то Нетология начиналась с интенсивов по онлайн-маркетингу. Затем появились курсы по дизайну, разработке, аналитике и управлению. Мы растем сами и помогаем расти студентам: от новичков до уверенных профессионалов.</string>
+    <string name="net_post">Привет, это новая Нетология! Когда-то Нетология начиналась с интенсивов по онлайн-маркетингу. Затем появились курсы по дизайну, разработке, аналитике и управлению. Мы растем сами и помогаем расти студентам: от новичков до уверенных профессионалов.</string>
     <string name="likes_amount">10</string>
     <string name="shares_amount">5</string>
     <string name="views_amount">5</string>
+    <string name="description_views">Количество просмотров</string>
+    <string name="description_likes">Количество лайков</string>
+    <string name="description_shares">Количество репостов</string>
+    <string name="description_post_menu">Меню</string>
 </resources>
